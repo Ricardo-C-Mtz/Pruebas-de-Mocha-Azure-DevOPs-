@@ -27,3 +27,10 @@ describe("Testing - 3", function() {
         assert.notStrictEqual(todos.list().length, 1);
     });
 });
+describe("Testing - 4", function() {
+    it("should be able to add items to do", function() {
+        let todos = new Todos();
+        todos.complete("W");
+        assert.notStrictEqual(todos.list().length, 1);
+    });
+});
