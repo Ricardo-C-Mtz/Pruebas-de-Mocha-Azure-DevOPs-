@@ -1,0 +1,16 @@
+{
+  "name": "MochaTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./Tests/index.test.js --reporter xunit --reporter-option output=reporter.xml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.1.3",
+    "request": "^2.88.2"
+  }
+}
